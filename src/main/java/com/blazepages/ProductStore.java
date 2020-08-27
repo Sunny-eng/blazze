@@ -105,7 +105,6 @@ public class ProductStore extends TestBase{
 	  Cart.click();
 	  
 	 
-	  
 	  WebDriverWait wait = new WebDriverWait(driver,30);
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[contains(text(),'Delete')])[2]")));
 	 
@@ -117,7 +116,8 @@ public class ProductStore extends TestBase{
 	  System.out.println("Total price is "+ ele);
 	  
 	  int Actualprice = 790;
-	  Assert.assertEquals(driver.equals(ele), Actualprice);
+	  Assert.assertEquals(ele, Actualprice);
+	  
 	  
 	  Placeorder.click();
 	  
