@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118551" started-at="2020-08-26T23:51:40 IST" finished-at="2020-08-26T23:53:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="118551" started-at="2020-08-26T23:51:40 IST" finished-at="2020-08-26T23:53:39 IST">
+      <class name="blazetest.com.Blazetest">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:blazetest.com.Blazetest@23e028a9]" name="initilization" is-config="true" duration-ms="37231" started-at="2020-08-26T23:51:40 IST" finished-at="2020-08-26T23:52:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="productstorecategories()[pri:0, instance:blazetest.com.Blazetest@23e028a9]" name="productstorecategories" duration-ms="80979" started-at="2020-08-26T23:52:17 IST" finished-at="2020-08-26T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productstorecategories -->
+      </class> <!-- blazetest.com.Blazetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
